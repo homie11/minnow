@@ -50,7 +50,7 @@ int main()
     }
 
     {
-      ReassemblerTestHarness test { "dup 3", 65000 };
+      ReassemblerTestHarness test { "dup 3", 65000 }; 
 
       test.execute( Insert { "abcdefgh", 0 } );
       test.execute( BytesPushed( 8 ) );

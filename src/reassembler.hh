@@ -48,6 +48,7 @@ private:
   // uint64_t reassemble_capacity_;
   uint64_t buffered_size_ = 0;
   uint64_t nextbytes_index_ = 0;
+  // uint64_t last_byte_can_store = 0;
   std::vector<uint64_t> index_ {};
   std::vector<std::string> repo {};
   std::vector<bool> flag{};

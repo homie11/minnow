@@ -21,7 +21,7 @@ int main()
     {
       ReassemblerTestHarness test { "holes 2", 65000 };
 
-      test.execute( Insert { "b", 1 } );
+      test.execute( Insert { "b", 1 } ); 
       test.execute( Insert { "a", 0 } );
 
       test.execute( BytesPushed( 2 ) );
